@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "clean": "rimraf ./dist",
     "prebuild": "npm run clean",
     "prepare": "npm run test",
     "prepublish": "npm run build",
